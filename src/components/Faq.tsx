@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import Image from "next/image";
 import styles from "../components/ui/Faq.module.css";
-import Chat from "/public/chat.svg";
+import Chat from "/public/chat.svg"; 
 
 const Faq: React.FC = () => {
     const [faqs, setFaqs] = useState([
